@@ -458,7 +458,9 @@ public class GamePad
       RIGHT_BUMPER (6),
       BACK (7),
       START (8),
-      POV (9);
+      LEFT_STICK (9),
+      RIGHT_STICK (10),
+      POV (11);
       
       private int value;
       
