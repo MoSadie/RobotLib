@@ -69,6 +69,12 @@ public class GamePad
 		button = new GamePadButton(GamePadButtonIDs.START);
 		buttons.add(button);
 		
+		button = new GamePadButton(GamePadButtonIDs.LEFT_STICK);
+		buttons.add(button);
+		
+		button = new GamePadButton(GamePadButtonIDs.RIGHT_STICK);
+		buttons.add(button);
+		
 		button = new GamePadButton(GamePadButtonIDs.POV);
 		buttons.add(button);
 
